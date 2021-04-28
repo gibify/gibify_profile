@@ -14,6 +14,14 @@ const linkRocketseatProfile = 'https://app.rocketseat.com.br/me/gibifyofficial';
 export default function Home() {
   return (
       <main className={styles.container}>  
+         <h1><i>Hey 👋, Welcome</i> < br />This is Evandro Gibicoski.</h1> 
+          <p>
+            As a Frontend Developer, 
+            I am Passionate about Technologies and Innovations,
+            my job is to facilitate the life of all browser users. 
+            I like when a user feels an amazing experience using great web apps.
+            You can feel free to follow and contact me through of buttons below.
+          </p>
           <a href={linkGithubProfile}>
             <FaGithub color="#000000"/> GitHub
           </a>

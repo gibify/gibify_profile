@@ -7,6 +7,22 @@
     align-items: center;
     justify-content: center
 }
+
+.container h1 {
+    margin-bottom: 1rem;
+
+    i {
+        color: var(--green);
+    }
+}
+
+.container p {
+    max-width: 280px;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
 .container a {
     background: var(--green);
     max-width: 280px;

@@ -12,7 +12,7 @@ export default class document extends Document {
                 content="gibify, Evandro Gibicoski, Font End Developer, Frontend, Typescript, React, JavaScript, CSS3, HTML5, remote, programador, gibifyofficial"
                 />
                 <meta name="description" content="Evandro Gibicoski, Profile Evandro, gibifyofficial"/>
-                
+            
 
                 <meta name="viewport" content="width=device-width, initial-scale"/>
 
