@@ -14,7 +14,7 @@ const linkRocketseatProfile = 'https://app.rocketseat.com.br/me/gibifyofficial';
 export default function Home() {
   return (
       <main className={styles.container}>  
-         <h1><i>Hey 👋, Welcome</i> < br />This is Evandro Gibicoski.</h1> 
+         <h1><i>Hey 👋, Welcome</i> < br />This is Evandro Gibicoski</h1> 
           <p>
             As a Frontend Developer, 
             I am Passionate about Technologies and Innovations,
