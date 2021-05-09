@@ -14,14 +14,15 @@ const linkRocketseatProfile = 'https://app.rocketseat.com.br/me/gibifyofficial';
 export default function Home() {
   return (
       <main className={styles.container}> 
+      <section className={styles.content}>
         <div>
          <h1><i>Hey 👋, Welcome</i> < br />This is Evandro Gibicoski</h1> 
           <p>
             As a Frontend Developer, 
             I am Passionate about Technologies and Innovations,
             my job is to facilitate the life of all browser users. 
-            I like when a user feels an amazing experience using great web apps.
-            You can feel free to follow and contact me through of buttons.
+            I like when a user feels an amazing experience using great Apps.
+            You can feel free to follow me and contact me through of buttons.
           </p>
         </div>
 
@@ -57,6 +58,11 @@ export default function Home() {
           <a href={linkRocketseatProfile}>
             <IoIosRocket color="#000000"/> Rocketseat
           </a>
+        </div>
+        </section>
+
+        <div>
+          <p>All Rights Reserved by <strong>@gibifyofficial</strong></p>
         </div>
 
       </main>
