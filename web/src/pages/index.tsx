@@ -19,7 +19,7 @@ export default function Home() {
   return (
       <main className={styles.container}> 
       <section className={styles.content}>
-        <div>
+        <div className={styles.textWrapper}>
          <h1><i>Hey 👋, Welcome</i> < br />This is Evandro Gibicoski</h1> 
           <p>
             As a Frontend Developer, 
@@ -30,45 +30,45 @@ export default function Home() {
           </p>
         </div>
 
-        <div>
+        <div className={styles.linksWrapper}>
           <a href={linkGithubProfile} target="_blank">
-            <FaGithub color="#000000"/> GitHub
+            <FaGithub color="#04D361"/> GitHub
           </a>
 
           <a href={linkLinkedinProfile} target="_blank">
-            <FaLinkedin color="#000000"/> LinkedIn
+            <FaLinkedin color="#04D361"/> LinkedIn
           </a>
         
           <a href={linkTwitterProfile} target="_blank"> 
-              <FaTwitter color="#000000"/> Twitter
+              <FaTwitter color="#04D361"/> Twitter
           </a>
         
           <a href={linkInstagramProfile} target="_blank">
-            <FaInstagram color="#000000"/> Instagram
+            <FaInstagram color="#04D361"/> Instagram
           </a>
 
           <a href={linkFacebookProfile} target="_blank">
-            <FaFacebook color="#000000"/> Facebook
+            <FaFacebook color="#04D361"/> Facebook
           </a>
 
           <a href={linkDiscordProfile} target="_blank">
-            <FaDiscord color="#000000"/> Discord
+            <FaDiscord color="#04D361"/> Discord
           </a>
 
           <a href={linkTikTokProfile} target="_blank">
-            <SiTiktok color="#000000"/> TikTok
+            <SiTiktok color="#04D361"/> TikTok
           </a>
 
           <a href={linkWhatsAppNumber} target="_blank">
-            <FaWhatsapp color="#000000"/> WhatsApp
+            <FaWhatsapp color="#04D361"/> WhatsApp
           </a>
 
           <a href={linkTelegramNumber} target="_blank">
-            <FaTelegram color="#000000"/> Telegram
+            <FaTelegram color="#04D361"/> Telegram
           </a>
 
           <a href={linkRocketseatProfile} target="_blank">
-            <IoIosRocket color="#000000"/> Rocketseat
+            <IoIosRocket color="#04D361"/> Rocketseat
           </a>
         </div>
         </section>
