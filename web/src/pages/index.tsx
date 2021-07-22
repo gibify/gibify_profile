@@ -32,43 +32,43 @@ export default function Home() {
 
         <div className={styles.linksWrapper}>
           <a href={linkGithubProfile} target="_blank">
-            <FaGithub color="#04D361"/> GitHub
+            <FaGithub color="#000000"/> GitHub
           </a>
 
           <a href={linkLinkedinProfile} target="_blank">
-            <FaLinkedin color="#04D361"/> LinkedIn
+            <FaLinkedin color="#000000"/> LinkedIn
           </a>
         
           <a href={linkTwitterProfile} target="_blank"> 
-              <FaTwitter color="#04D361"/> Twitter
+              <FaTwitter color="#000000"/> Twitter
           </a>
         
           <a href={linkInstagramProfile} target="_blank">
-            <FaInstagram color="#04D361"/> Instagram
+            <FaInstagram color="#000000"/> Instagram
           </a>
 
           <a href={linkFacebookProfile} target="_blank">
-            <FaFacebook color="#04D361"/> Facebook
+            <FaFacebook color="#000000"/> Facebook
           </a>
 
           <a href={linkDiscordProfile} target="_blank">
-            <FaDiscord color="#04D361"/> Discord
+            <FaDiscord color="#000000"/> Discord
           </a>
 
           <a href={linkTikTokProfile} target="_blank">
-            <SiTiktok color="#04D361"/> TikTok
+            <SiTiktok color="#000000"/> TikTok
           </a>
 
           <a href={linkWhatsAppNumber} target="_blank">
-            <FaWhatsapp color="#04D361"/> WhatsApp
+            <FaWhatsapp color="#000000"/> WhatsApp
           </a>
 
           <a href={linkTelegramNumber} target="_blank">
-            <FaTelegram color="#04D361"/> Telegram
+            <FaTelegram color="#000000"/> Telegram
           </a>
 
           <a href={linkRocketseatProfile} target="_blank">
-            <IoIosRocket color="#04D361"/> Rocketseat
+            <IoIosRocket color="#000000"/> Rocketseat
           </a>
         </div>
         </section>
