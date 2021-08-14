@@ -70,10 +70,6 @@ a {
 }
 
 @media (max-width: 780px) {
-
-    body {
-        background: #001800da;
-    }
     body::before {
       display: none;
     }
