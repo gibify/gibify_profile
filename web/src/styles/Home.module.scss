@@ -109,6 +109,7 @@
 
 @media (max-width: 780px) {
     .container { 
+        min-height: 100vh;
         margin-top: 0;
 
         header {
@@ -126,7 +127,7 @@
 
                 h1 {
                     font-size: 18px;
-                    color: var(--black);
+                    color: var(--white);
                 }
 
                 span {
@@ -138,7 +139,6 @@
 
         .footer {
             width: 100%;
-            background: #000000;
 
             display: flex;
             justify-content: center;
