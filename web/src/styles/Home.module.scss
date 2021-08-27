@@ -76,8 +76,6 @@
             border-left: 1px solid rgba(255, 255, 255, 0.5);
 
             backdrop-filter: blur(5px);
-            
-
             width: 100%;
 
             display: flex;
@@ -85,20 +83,24 @@
             align-items: center;
             justify-content: center;
         
-            font-weight: 600;
+            font-weight: 500;
             color: var(--white);
         
             margin-bottom: 0.5rem;
             border-radius: 15px;
             padding: 0.5rem 1rem;
             line-height: 18px;
+            text-transform: uppercase;
         
             transition: 0.8s;
-            
-            svg {
-                margin-right: 16px;
+
+            .info {
+                width: 125px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
             }
-        
+                
             &:hover {
                 filter: brightness(0.8);
                 border: 1px solid var(--green);
@@ -119,12 +121,13 @@
             align-items: center;
             justify-content: space-between;
 
-            img {
+            .avatar {
                 border-radius: 50%;
+                border: 2px solid var(--green);
             }
 
             > div {
-
+    
                 h1 {
                     font-size: 18px;
                     color: var(--white);
@@ -155,6 +158,12 @@
 
     .linksWrapper {
         margin-bottom: 32px;
+
+        a {
+            .info {
+                width: 95px !important;
+            }
+        }
 
     }  
 }

@@ -9,11 +9,10 @@ export default class document extends Document {
                 <meta name="generator" content="Next.js"/>
                 <meta 
                 name="keywords" 
-                content="gibify, Evandro Gibicoski, Font End Developer, Frontend, Typescript, React, JavaScript, CSS3, HTML5, remote, programador, gibifyofficial"
+                content="gibify, Evandro Gibicoski, Font End Developer, Frontend, Typescript, React, JavaScript, Next, CSS3, HTML5, remote, programador, gibifyofficial"
                 />
-                <meta name="description" content="Evandro Gibicoski, Profile Evandro, gibifyofficial"/>
+                <meta name="description" content="Evandro Gibicoski, Evandro, gibifyofficial"/>
             
-
                 <meta name="viewport" content="width=device-width, initial-scale"/>
 
                 <link rel="preconnect" href="https://fonts.gstatic.com" />

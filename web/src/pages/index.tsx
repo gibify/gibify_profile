@@ -1,28 +1,13 @@
 import Image from 'next/image';
 
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaWhatsapp, FaFacebook, FaDiscord, FaTelegram } from 'react-icons/fa';
-// import { SiTiktok } from 'react-icons/si'
-// import { IoIosRocket } from 'react-icons/io';
-
 import styles  from '../styles/Home.module.scss';
-
-const linkGithubProfile = 'https://github.com/gibifyofficial';
-const linkLinkedinProfile = 'https://www.linkedin.com/in/gibifyofficial/';
-const linkTwitterProfile = 'https://twitter.com/gibifyofficial';
-// const linkInstagramProfile = 'https://www.instagram.com/gibifyofficial/';
-// const linkFacebookProfile = 'https://www.facebook.com/gibifyofficial/';
-const linkDiscordProfile = 'https://discord.com/channels/525719253224128532/gibifyofficial#2086';
-// const linkTikTokProfile = 'https://www.tiktok.com/@gibifyofficial?lang=pt-BR';
-const linkWhatsAppNumber = 'https://api.whatsapp.com/send?phone=554898463847';
-const linkTelegramNumber = 'https://msng.link/o/?EvandroGibicoski=tg';
-// const linkRocketseatProfile = 'https://app.rocketseat.com.br/me/gibifyofficial';
-
+import { data } from '../../src/services/data';
 
 export default function Home() {
   return (
       <main className={styles.container}> 
       <header>
-          <Image src="/images/image-profile.png" alt="Avatar" width={100} height={100}/>
+          <Image src="/images/imageProfile.png" alt="Avatar" width={100} height={100} className={styles.avatar} />
         <div>
           <h1>Evandro Gibicoski</h1>
           <span>@gibifyofficial</span>
@@ -40,45 +25,19 @@ export default function Home() {
         </div>
 
         <div className={styles.linksWrapper}>
-          <a href={linkGithubProfile} target="_blank">
-            <FaGithub color="#04D361"/> GitHub
-          </a>
-
-          <a href={linkLinkedinProfile} target="_blank">
-            <FaLinkedin color="#04D361"/> LinkedIn
-          </a>
-        
-          <a href={linkTwitterProfile} target="_blank"> 
-              <FaTwitter color="#04D361"/> Twitter
-          </a>
-        
-          {/* <a href={linkInstagramProfile} target="_blank">
-            <FaInstagram color="#04D361"/> Instagram
-          </a>
-
-          <a href={linkFacebookProfile} target="_blank">
-            <FaFacebook color="#04D361"/> Facebook
-          </a> */}
-
-          <a href={linkDiscordProfile} target="_blank">
-            <FaDiscord color="#04D361"/> Discord
-          </a>
-
-          {/* <a href={linkTikTokProfile} target="_blank">
-            <SiTiktok color="#04D361"/> TikTok
-          </a> */}
-
-          <a href={linkWhatsAppNumber} target="_blank">
-            <FaWhatsapp color="#04D361"/> WhatsApp
-          </a>
-
-          <a href={linkTelegramNumber} target="_blank">
-            <FaTelegram color="#04D361"/> Telegram
-          </a>
-
-          {/* <a href={linkRocketseatProfile} target="_blank">
-            <IoIosRocket color="#04D361"/> Rocketseat
-          </a> */}
+          {data.map(item => (
+            <a href={item.url} target="_blank" >
+              <div className={styles.info}>
+                <Image 
+                  src={`/icons/${item.icon}`}
+                  alt={item.title}
+                  width={18}
+                  height={18}
+                />
+                <span>{item.title}</span>
+              </div>
+            </a>
+          ))}
         </div>
         </section>
 
