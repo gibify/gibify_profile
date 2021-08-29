@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <main className={styles.container}> 
       <header>
-          <Image src="/images/imageProfile.png" alt="Avatar" width={100} height={100} className={styles.avatar} />
+          <Image src="/images/avatar.png" alt="Avatar" width={100} height={100} className={styles.avatar} />
         <div>
           <h1>Evandro Gibicoski</h1>
           <span>@gibifyofficial</span>
