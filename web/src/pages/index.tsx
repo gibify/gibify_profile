@@ -6,13 +6,13 @@ import { data } from '../../src/services/data';
 export default function Home() {
   return (
       <main className={styles.container}> 
-      <header>
+      {/* <header>
           <Image src="/images/avatar.png" alt="Avatar" width={100} height={100} className={styles.avatar} />
         <div>
           <h1>Evandro Gibicoski</h1>
           <span>@gibifyofficial</span>
         </div>
-      </header>
+      </header> */}
       <section className={styles.content}>
         <div className={styles.textWrapper}>
          <h1><i>Hey 👋, Welcome</i></h1> 

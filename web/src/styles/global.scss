@@ -38,27 +38,32 @@ body, input, textarea, select, button {
     font: 400 1rem "Roboto", sans-serif;
 }
 
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#04D361, #0f703b);
-    clip-path: circle(30% at right 80%);
+body {
+    background: linear-gradient(252.48deg, #0A81C5 0.51%, #0F8BC1 9.23%, #6DA5C5 18.19%, #A77C23 27.17%, #C8912A 42.91%, #FD3D3C 55.43%, #FF0262 67.81%, #AB2691 83.13%, #8E33A2 99.78%);
+  
 }
 
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#0f703b, #04D361);
-    clip-path: circle(20% at 7% 7%);
-}
+// body::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: linear-gradient(#04D361, #0f703b);
+//     clip-path: circle(30% at right 80%);
+// }
+
+// body::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: linear-gradient(#0f703b, #04D361);
+//     clip-path: circle(20% at 7% 7%);
+// }
 
 button {
     cursor: pointer;
@@ -69,17 +74,17 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 780px) {
-    body {
-        height: 100vh;
-        background: linear-gradient( rgba(0, 0, 0, 1), rgba(3, 83, 39, 1), rgba(0, 0, 0, 1));
-    }
+// @media (max-width: 780px) {
+//     body {
+//         height: 100vh;
+//         background: linear-gradient( rgba(0, 0, 0, 1), rgba(3, 83, 39, 1), rgba(0, 0, 0, 1));
+//     }
 
-    body::before {
-      display: none;
-    }
+//     body::before {
+//       display: none;
+//     }
     
-    body::after {
-      display: none;
-    }
-}
+//     body::after {
+//       display: none;
+//     }
+// }
